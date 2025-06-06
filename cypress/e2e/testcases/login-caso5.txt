@@ -1,0 +1,23 @@
+Prueba login con credenciales desde JSON
+
+1. Inicial el proyecto 
+    Nos debe poder Mostar una vista en al cual encontramos un login compuesto por dos campos y un botón 
+        Campos: campos llamado email y campos llamado password
+        Botón: Botón de iniciar sección 
+
+
+2 . Ingresar datos en campos email
+    Nos debe permitir poder ingresar un correo válido en el campo de email
+        Datos: Correos aleatorios cargados desde el archivo JSON
+
+3 . Ingresar datos en campos password
+    Nos debe permitir poder digitar una contraseña que contenga  como  mínimo 6 caracteres, solo letras y números.
+        Datos: Contraseñas aleatorias cargadas desde el archivo JSON 
+
+4 . Click en Botón de Iniciar sección
+    Nos debe poder permitir darle click al botón para iniciar sección en el sistema 
+      Nota: Los campos de Email y password debe contener datos para que el botón de "iniciar sección" de habilitar, ya que inicialmente está en disable
+      Nota:Una vez validad los datos nos debe redirigir a una vista donde encontraremos el nombre del usuario logueado en el sistema 
+
+5 . Click en el Botón de cerrar sección
+     nos debe poder cerrar la sección inicializada previamente 

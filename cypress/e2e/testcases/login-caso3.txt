@@ -1,0 +1,21 @@
+Login de prueba - Caso de prueba password errónea
+
+
+1 . Inicial el proyecto 
+    Nos debe poder Mostar una vista en al cual encontramos un login compuesto por dos campos y un botón 
+        Campos: campos llamado email y campos llamado password
+        Botón: Botón de iniciar sección 
+
+2 . Ingresar datos en campos email
+    Nos debe permitir poder ingresar un correo válido en el campo de email
+        Notas: El campo es tipo email debe contener "@" y ".com".
+        Datos: Correo electrónico - prueba@gmail.com
+
+3 . Ingresar datos en campos password
+    Nos debe permitir poder digitar una contraseña errónea en el campo de password
+        Notas: El sistema debe mostrar un mensaje de error indicando que los datos digitados en el campo password  son incorrectos
+        Datos: contraseñas - pru.123
+
+4 . Click en Botón de Iniciar sección
+    Nos debe poder permitir darle click al botón para iniciar sección en el sistema 
+      Nota: Los campos de Email y password debe contener datos para que el botón de "iniciar sección" se habilita, ya que inicialmente está en disable

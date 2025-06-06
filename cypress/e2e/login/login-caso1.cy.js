@@ -4,10 +4,10 @@ describe("Login de prueba - Caso de prueba exitoso", () => {
   });
 
   it("debería mostrar el formulario de login", () => {
-    //Email
-    cy.get('[type="email"]').type("doe@example.com");
-    //Password
-    cy.get('[type="password"]').type("abc123");
+ 
+    cy.get('[type="email"]').type("asmith@example.com");
+    cy.get('[type="password"]').type("password1");
     cy.get("button").click();
+    cy.wait(5000)
   });
 });

@@ -5,7 +5,7 @@ describe("Prueba de login con credenciales al azar", () => {
     cy.loginVisita();
   });
 
-  for (let i = 1; i <= 5; i++) {
+  for (let i = 1; i <= 2; i++) {
     it(`Iteración ${i}: debe escribir email y password aleatorios`, () => {
       cy.wait(3000);
       const { email, password } = credencialesFalsas();

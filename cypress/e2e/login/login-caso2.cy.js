@@ -4,10 +4,9 @@ describe("Login de prueba - Caso de prueba email erroneo", () => {
   });
 
   it("Formulario de login ", () => {
-    //Email
+
     cy.log("Se escribe el correo electrónico de manera errónea");
     cy.get('[type="email"]').type("usuario#correo.com");
-    //Password
     cy.get('[type="email"]').then(($input) => {
       const isValid = $input[0].checkValidity();
 

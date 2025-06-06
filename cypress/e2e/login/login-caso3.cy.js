@@ -4,10 +4,8 @@ describe("Login de prueba - Caso de prueba password erroneo", () => {
   });
 
   it("Formulario de login ", () => {
-    //Email
     cy.log("Se escribe el correo electrónico de manera correcta");
     cy.get('[type="email"]').type("usuario@correo.com");
-    //Password
     cy.log("Se escribe la password inválida ");
     cy.get('[type="password"]').type(" .miPassword123");
     cy.get("app-login").click();

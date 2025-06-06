@@ -1,0 +1,23 @@
+Prueba de login con credenciales al azar
+
+
+1 . Inicial el proyecto 
+    Nos debe poder mostrar una vista en al cual encontramos un login compuesto por dos campos y un botón 
+        Campos: campos llamado email y campos llamado password
+        Botón: Botón de iniciar sección 
+
+2 . Ingresar datos en campos email
+    Nos debe permitir poder ingresar un correo válido en el campo de email
+        Datos: Correo electrónico - datos aleatorios
+
+3 . Ingresar datos en campos password
+    Nos debe permitir poder digitar una contraseña que contenga  como  mínimo 6 caracteres, solo letras y números.
+        Datos: contraseñas - datos aleatorios
+
+4 . Click en Botón de Iniciar sección
+    Nos debe poder permitir darle click al botón para iniciar sección en el sistema 
+      Nota: Los campos de Email y password debe contener datos para que el botón de "iniciar sección" se habilita, ya que inicialmente está en disable
+      Nota: Si las credenciales no existen, el sistema debe bloquear el acceso y mostrar un mensaje de error
+
+Nota: Acá se evalúa que no se pueda ingresas al sistema con credenciales que no están "Registradas" en la "base de datos" lo cual lo convierte
+       en un pequeño ataque de fuerza al sistema.
